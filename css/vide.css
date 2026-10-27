@@ -1,0 +1,20 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+    text-align: center;
+    color: white;
+}
+body{
+    background-color: #001a36;
+}
+video{
+    height: 100px;
+    width: 400px;
+}
+table{
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+}

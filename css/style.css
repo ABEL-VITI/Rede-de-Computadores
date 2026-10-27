@@ -1,0 +1,238 @@
+*{
+    box-sizing:border-box;
+    text-decoration: none;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.wrap{
+    width:min(1160px,92%);
+    margin:auto
+}
+
+header{
+    position:sticky;
+    top:0;
+    z-index:10;
+    background:#001a36;
+    backdrop-filter:blur(12px);
+}
+.menu-toggle{
+    display:none;
+    background:transparent;
+    border:1px solid var(--line);
+    color:white;
+    border-radius:8px;
+    padding:8px 12px;
+    font-size:1.2rem
+}
+                                                                      
+.hero-grid{
+    display:grid;
+    grid-template-columns:1fr 1.05fr;
+    align-items:center;
+    gap:36px;
+    position:relative;
+    z-index:1
+}
+@media(max-width:850px){
+    .menu-toggle{
+    display:block
+}
+}
+                                                                                                                                                                                                                                                                                                                                                              
+.nav{
+    height:100%;
+    display:flex;
+    align-items:center;
+    justify-content:space-between
+}
+.nav nav{
+    display:flex;
+    align-items:center;
+    gap:25px;
+    font-size:14px;
+    font-weight:700
+}
+nav a{
+    color: white;
+}
+.nav nav a:hover{
+    background-color: #0176FD
+}
+@media(max-width:900px){
+    .hamb{
+        display:block
+    }
+    .nav nav{
+        display:none;
+        position:absolute;
+        top:82px;
+        left:0;
+        right:0;
+        background:#071426;
+        padding:20px;
+        flex-direction:column;
+        align-items:flex-start
+    }
+    .nav nav.open{
+        display:flex
+    }
+}
+a{
+    color: white;
+}
+.men1{
+    margin-top: 10px;
+    display: flex;
+}
+.men1:hover{
+    border-radius: 20px;
+    padding: 5px;
+   background-color: #2F91C9; 
+}
+.hom{
+    margin-top: -14px;
+}
+.men:hover{
+    border-radius: 20px;
+    padding: 5px;
+   background-color: #2F91C9; 
+}
+nav{
+    margin-left: 100px;
+    display: flex;
+}
+button{
+    cursor: pointer;
+    width: 100px;
+    height: 40px;
+    border-radius: 20px;
+    border-color: #0176FD;
+    background-color: #0176FD;
+}
+.hom{
+    width: 40px;
+}
+header div h1{
+    color: white;
+}
+header div p{
+    color: #2F91C9;
+}
+article{
+    background-image: url('imagen/a.png');
+    
+}
+article div{
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+article h3{
+    margin-left: 40px;
+    color: #0176FD;
+}
+article div h1{ 
+    color: white;
+}
+article div h3{
+    margin-left: -0px;
+    color: white;
+}
+article div p{
+    margin-left: -0px;
+    color: white;
+}
+
+strong{
+    color: #0172F7;
+}
+
+article button{
+    margin-left: 40px;
+    cursor: pointer;
+    width: 150px;
+    height: 20px;
+    color: white;
+    border-radius: 20px;
+    border-color: #0176FD;
+    background-color: #0176FD;
+}
+
+main{
+    margin-left: -40px;
+    min-width: 300px;
+    max-width: 1000px;
+    background-color: white;
+    padding: 100px 100px;
+}
+.conteu{
+    min-width: 300px;
+    max-width: 1000px;
+}
+.comp{
+    margin-top: 100px;
+    width: 40%;
+
+}
+.sub{
+    margin-left: -20px;
+    display: flex;
+}
+.sub-m{
+    margin-left: 10px;
+    display: flex;
+}
+.red{
+    margin-left: -10px;
+    height: 40px;
+}
+
+.prin{
+    display:grid;
+    grid-template-columns:repeat(2,1fr);
+    gap:14px;
+    margin-top:100px;
+}
+.quadr{
+    padding: 15px 50px;
+    border-radius: 20px;
+}
+.tipo{
+    position: absolute;
+    margin-left: 20px;
+    margin-top: 20px;
+    color: #001a36;
+}
+p{
+    color: #001a36;
+}
+
+.curs{
+    margin-top: 100px;
+    display: flex;
+    background-color: #001a36;
+    padding: 0px 100px;
+}
+.curs div{
+    margin-top: 40px;
+}
+
+footer{
+    margin-top: 100px;
+    display: flex;
+    background-color: #001a36;
+    padding: 10px 10px;
+}
+footer div h1{
+    color: white;
+}
+footer div h3{
+    color: white;
+}
+footer div p{
+    color: #2F91C9;
+}
+footer .fim{
+    margin-left: 100px;
+}
+

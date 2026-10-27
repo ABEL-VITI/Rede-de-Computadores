@@ -1,0 +1,85 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #001a36;
+}
+header{
+    align-items: center;
+    justify-items: center;
+    margin-top: 100px;
+}
+table{
+    background-color: #001a36;
+    padding: 250px 200px;
+    border-radius: 10px;
+    border-color: white;
+}
+h1{
+    color: white;
+    position: absolute;
+    margin-top: 60px;
+    margin-left: -100px;
+}
+strong{
+    color: #0172F7;
+}
+.sub-tex{
+    color: white;
+    position: absolute;
+    margin-top: 110px;
+    margin-left: -85px;
+}
+.login{
+    position: absolute;
+    margin-top: 200px;
+}
+input{
+    color: white;
+    background-color: #001a36;
+    border-color: white;
+    border-radius: 10px;
+    padding: 10px 80px;
+}
+.senh{
+    color: white;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.ponto{
+    padding: 100px 100px;
+}
+button{
+    margin-top: 30px;
+    margin-left: 100px;
+    padding: 5px 50px;
+    border-radius: 20px;
+    border-color: #0176FD;
+    background-color: #0176FD;
+}
+p{
+    color: white;
+}
+nav{
+    margin-top: 20px;
+    display: flex;
+}
+a{
+    color: white;
+}
+.boto-btn{
+    color: black;
+    text-decoration: none;
+}
+.linh{
+    margin-left: 20px;
+    display: flex;
+}
+.a{
+    margin-left: 100px;
+}
+.b{
+    margin-left: 10px;
+}
