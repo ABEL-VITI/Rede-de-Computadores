@@ -120,12 +120,14 @@ header div p{
     color: #2F91C9;
 }
 article{
-    background-image: url('imagen/a.png');
-    
+    background-image: url('a.png');
+    background-size: cover;
+    height: 300px;
+    background-repeat: no-repeat;
+    width: 100%;
 }
 article div{
     margin-left: 10px;
-    margin-bottom: 10px;
 }
 article h3{
     margin-left: 40px;
